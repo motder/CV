@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+
+  *,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  :focus,:active{outline: none;}
+  a:focus,a:active{outline: none;}
+  
+  nav,footer,header,aside{display: block;}
+  
+  html,body{
+    display: flex;
+    font-family: 'Montserrat';
+    max-width: 1200px;
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    }
+  /* input,button,textarea{font-family:inherit;} */
+  
+  input::-ms-clear{display: none;}
+  button{cursor: pointer;}
+  button::-moz-focus-inner {padding:0;border:0;}
+  a, a:visited{text-decoration: none;}
+  a:hover{text-decoration: none;}
+  /* ul li{list-style: none;} */
+  img{vertical-align: top;}
+  
+  /* h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;} */
+
+  aside {
+    max-width: 370px;
+    height: 1319px;
+}
+  .sidebar {
+    background: #1e2939;
+    color: #ffffff;
+    
+ }
+  .photo {
+    padding: 40px 0 57px 0;
+  }
+.contact {
+ /* color: #ffffff; */
+ text-decoration: none;
+ padding-left: 40px;
+ 
+   
+}
+.text-contact {
+    padding-bottom: 20px;
+    
+}
+.ce {
+    font-weight: 700;
+    
+}
+
+.tel, .mail {
+    padding-left: 10px;
+    line-height: 20px;
+    font-weight: 400;
+
+}
+.mail {
+    text-decoration: underline;
+    color: #666;
+}
+.tel {
+    color:#666;
+}
+.tech-skills {
+    margin: 54px 0px 0 40px;
+}
+.skills-li {
+    margin-top: 20px;
+    margin-left: 16px;
+    line-height: 20px;
+    
+}
+.soft-skills {
+    margin: 52px 0 0 40px;  
+}
+.color-ul {
+    color: #ff6b08;
+}
+.color-li {
+    color: #fff;
+}
+
+main ul, ol {
+    padding-inline-start: 17px;
+}
+
+main {
+    max-width: 830px;
+    max-height: 100%;
+    margin-left: 90px;
+
+    
+}
+.name h5 {
+    margin-top: 108px;
+    padding-bottom: 24px;
+}
+
+.name h1 {
+    padding-bottom: 24px;  
+}
+.name p {
+    max-width: 413px;
+    border: 1px solid #fff;
+    line-height: 24px;
+    color: #595959;
+}
+.project a{
+    border: solid 1px #fff;;
+    width: 320px;
+    position: absolute;
+    left: auto;
+    border-bottom: 1px dotted #a8a8a8;
+           
+}
+/* делаем жирные цифры: */
+ol {
+    counter-reset: item;
+    list-style-type: none;
+}
+ol > li:before {
+    counter-increment: item;
+    content: counter(item) ". ";
+    font-weight: 700;
+    padding-right: 9px;
+    margin-left: -17px;
+    
+    
+}
+
+/* .project li {
+    padding-left: 9px;
+    width: 320px;
+    border-bottom: 1px dotted #a8a8a8;  
+    
+} */
+.project span {
+    margin-top: -15px;
+    width: 336px;
+    left: 800px;
+    border: solid 1px #fff;;
+    position: absolute;
+      
+}
+.project h2{
+    margin-top: 64px;
+    padding-bottom: 12px;
+}
+
+.experience {
+    margin-top: 52px;
+}
+.experience h4 {
+    padding-top: 18px;
+}
+.orange {
+    color: #ff6b08;
+}
+
+.experience pre {
+    padding-top: 14px;
+    font-size: 12px;
+    color: #a8a8a8;
+}
+.experience ul {
+    padding-top: 14px;
+}
+
+.experience li {
+    max-width: 413px;
+    border: 1px solid #fff;
+    line-height: 24px;
+    color: #595959;
+    padding-bottom: 1px;
+    margin-bottom: -5;
+    
+    
+}
+.palka {
+    color: #000;
+}
+
+.education {
+    margin-top: 55px;
+}
+
+.university {
+    padding-top: 21px;
+    color: #ff6b08;
+}
+.education h5 {
+    padding-top: 15px;
+}
+
+.education pre {
+    padding-top: 14px;
+    font-size: 12px;
+    color: #a8a8a8; 
+}
